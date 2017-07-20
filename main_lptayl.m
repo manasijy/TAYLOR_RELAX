@@ -156,7 +156,7 @@ new_gmatrix(:,1) = gmatrix;
 
 for j=1:1:n_steps
 
-for i=1:1:lg, 
+for i=1:1:lg 
     DCMtrx = matrix(gmatrix(i));  
     e_grain=DCMtrx'*e_ext*DCMtrx;
     
